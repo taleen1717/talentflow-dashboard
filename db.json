@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Taleen Hani",
+      "email": "admin@talentflow.com",
+      "password": "123456",
+      "role": "HR Manager"
+    }
+  ],
+  "applicants": [
+    {
+      "id": "applicant-1",
+      "name": "Sara Ahmed",
+      "email": "sara@gmail.com",
+      "jobId": "job-1",
+      "position": "Frontend Developer",
+      "status": "Applied"
+    },
+    {
+      "id": "applicant-2",
+      "name": "Omar Ali",
+      "email": "omar@gmail.com",
+      "jobId": "job-1",
+      "position": "Frontend Developer",
+      "status": "Screening"
+    },
+    {
+      "id": "applicant-3",
+      "name": "Lina Hassan",
+      "email": "lina@gmail.com",
+      "jobId": "job-1",
+      "position": "Frontend Developer",
+      "status": "Accepted"
+    },
+    {
+      "name": "Maha Abdullah",
+      "email": "maha@gmail.com",
+      "jobId": "job-1",
+      "position": "Frontend Developer",
+      "status": "Interview",
+      "id": "uQzS9MFJDJs"
+    },
+    {
+      "name": "Taleen Hani",
+      "email": "tfelemban0006@gmail.com",
+      "jobId": "job-1",
+      "position": "Frontend Developer",
+      "status": "Screening",
+      "id": "7jwcAdpyb0A"
+    },
+    {
+      "name": "lara omar",
+      "email": "taleenhani4@gmail.com",
+      "jobId": "job-1",
+      "position": "Frontend Developer",
+      "status": "Applied",
+      "id": "1FDNT6chJEk"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "title": "Frontend Developer",
+      "department": "Engineering",
+      "type": "Full-time",
+      "location": "Jeddah",
+      "status": "Open"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,251 @@
+/* Theme button */
+
+.theme-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 9px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: white;
+  color: #374151;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.theme-button:hover {
+  background-color: #f9fafb;
+}
+
+/* Dark theme */
+
+html[data-theme='dark'] body {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+html[data-theme='dark'] .dashboard-area,
+html[data-theme='dark'] .dashboard-content,
+html[data-theme='dark'] .dashboard-page,
+html[data-theme='dark'] .applicants-page,
+html[data-theme='dark'] .jobs-page,
+html[data-theme='dark'] .login-page,
+html[data-theme='dark'] .login-form-area {
+  background-color: #0f172a;
+  color: #e5e7eb;
+}
+
+/* Header */
+
+html[data-theme='dark'] .topbar {
+  border-color: #334155;
+  background-color: #111827;
+}
+
+html[data-theme='dark'] .topbar h2,
+html[data-theme='dark'] .topbar strong {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .topbar p,
+html[data-theme='dark'] .user-info small {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .theme-button,
+html[data-theme='dark'] .menu-button,
+html[data-theme='dark'] .logout-button {
+  border-color: #475569;
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .theme-button:hover,
+html[data-theme='dark'] .menu-button:hover {
+  background-color: #334155;
+}
+
+html[data-theme='dark'] .logout-button {
+  border-color: #f87171;
+  color: #f87171;
+}
+
+html[data-theme='dark'] .logout-button:hover {
+  background-color: #3f1d24;
+}
+
+/* Titles and descriptions */
+
+html[data-theme='dark'] .page-heading h1,
+html[data-theme='dark'] .applicants-heading h1,
+html[data-theme='dark'] .jobs-heading h1,
+html[data-theme='dark'] .chart-heading h2,
+html[data-theme='dark'] .applicant-form-card h2,
+html[data-theme='dark'] .applicants-card h2,
+html[data-theme='dark'] .job-form-card h2,
+html[data-theme='dark'] .jobs-table-card h2 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .page-heading p,
+html[data-theme='dark'] .applicants-heading p,
+html[data-theme='dark'] .jobs-heading p,
+html[data-theme='dark'] .chart-heading p,
+html[data-theme='dark'] .field-help,
+html[data-theme='dark'] .loading-message,
+html[data-theme='dark'] .loading-box,
+html[data-theme='dark'] .empty-box,
+html[data-theme='dark'] .jobs-loading,
+html[data-theme='dark'] .jobs-empty,
+html[data-theme='dark'] .empty-chart {
+  color: #94a3b8;
+}
+
+/* Cards */
+
+html[data-theme='dark'] .stat-card,
+html[data-theme='dark'] .status-chart-card,
+html[data-theme='dark'] .applicant-form-card,
+html[data-theme='dark'] .applicants-card,
+html[data-theme='dark'] .applicants-tools,
+html[data-theme='dark'] .job-form-card,
+html[data-theme='dark'] .jobs-table-card,
+html[data-theme='dark'] .login-card {
+  border-color: #334155;
+  background-color: #111827;
+  color: #e5e7eb;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+html[data-theme='dark'] .stat-card-title {
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .stat-card h2 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .stat-card-description {
+  color: #64748b;
+}
+
+/* Form labels and fields */
+
+html[data-theme='dark'] label {
+  color: #e5e7eb;
+}
+
+html[data-theme='dark'] input,
+html[data-theme='dark'] select,
+html[data-theme='dark'] textarea {
+  border-color: #475569;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] input::placeholder,
+html[data-theme='dark'] textarea::placeholder {
+  color: #64748b;
+}
+
+html[data-theme='dark'] input:focus,
+html[data-theme='dark'] select:focus,
+html[data-theme='dark'] textarea:focus {
+  border-color: #818cf8;
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.15);
+}
+
+html[data-theme='dark'] select option {
+  background-color: #111827;
+  color: #f8fafc;
+}
+
+/* Tables */
+
+html[data-theme='dark'] .applicants-table th,
+html[data-theme='dark'] .jobs-table th {
+  border-color: #334155;
+  background-color: #1e293b;
+  color: #94a3b8;
+}
+
+html[data-theme='dark'] .applicants-table td,
+html[data-theme='dark'] .jobs-table td {
+  border-color: #334155;
+  color: #e5e7eb;
+}
+
+html[data-theme='dark'] .applicant-name,
+html[data-theme='dark'] .job-title {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .applicants-card h2,
+html[data-theme='dark'] .jobs-table-card h2 {
+  border-color: #334155;
+}
+
+/* Secondary and table buttons */
+
+html[data-theme='dark'] .cancel-edit-button,
+html[data-theme='dark'] .cancel-job-button,
+html[data-theme='dark'] .edit-button,
+html[data-theme='dark'] .delete-button,
+html[data-theme='dark'] .job-edit-button,
+html[data-theme='dark'] .job-delete-button {
+  background-color: #111827;
+}
+
+html[data-theme='dark'] .cancel-edit-button,
+html[data-theme='dark'] .cancel-job-button {
+  border-color: #475569;
+  color: #e5e7eb;
+}
+
+html[data-theme='dark'] .cancel-edit-button:hover,
+html[data-theme='dark'] .cancel-job-button:hover {
+  background-color: #1e293b;
+}
+
+/* Chart */
+
+html[data-theme='dark'] .chart-label {
+  color: #cbd5e1;
+}
+
+html[data-theme='dark'] .chart-label strong {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .chart-track,
+html[data-theme='dark'] .empty-chart {
+  background-color: #1e293b;
+}
+
+/* Login */
+
+html[data-theme='dark'] .login-card h1 {
+  color: #f8fafc;
+}
+
+html[data-theme='dark'] .login-subtitle,
+html[data-theme='dark'] .login-demo {
+  color: #94a3b8;
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+  .theme-button-text {
+    display: none;
+  }
+
+  .theme-button {
+    width: 38px;
+    height: 38px;
+    padding: 0;
+  }
+}
