@@ -12,7 +12,7 @@
     {
       "id": "applicant-1",
       "name": "Sara Ahmed",
-      "email": "sara@gmail.com",
+     "email": "sara@example.com",
       "jobId": "job-1",
       "position": "Frontend Developer",
       "status": "Applied"
@@ -20,7 +20,7 @@
     {
       "id": "applicant-2",
       "name": "Omar Ali",
-      "email": "omar@gmail.com",
+   "email": "omar@example.com",
       "jobId": "job-1",
       "position": "Frontend Developer",
       "status": "Screening"
@@ -28,22 +28,22 @@
     {
       "id": "applicant-3",
       "name": "Lina Hassan",
-      "email": "lina@gmail.com",
+      "email": "lina@example.com",
       "jobId": "job-1",
       "position": "Frontend Developer",
       "status": "Accepted"
     },
     {
       "name": "Maha Abdullah",
-      "email": "maha@gmail.com",
+      "email": "maha@example.com",
       "jobId": "job-1",
       "position": "Frontend Developer",
       "status": "Interview",
       "id": "uQzS9MFJDJs"
     },
     {
-      "name": "Taleen Hani",
-      "email": "tfelemban0006@gmail.com",
+  "name": "Nora Khalid",
+"email": "nora@example.com",
       "jobId": "job-1",
       "position": "Frontend Developer",
       "status": "Screening",
@@ -51,7 +51,7 @@
     },
     {
       "name": "lara omar",
-      "email": "taleenhani4@gmail.com",
+"email": "lara@example.com",
       "jobId": "job-1",
       "position": "Frontend Developer",
       "status": "Applied",
