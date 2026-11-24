@@ -57,6 +57,20 @@ It helps HR teams manage job openings, track applicants through different recrui
 - Responsive tables and forms
 - Accessible form labels and buttons
 
+- ## Screenshots
+
+### Login
+![TalentFlow Login](01-login.png)
+
+### Dashboard
+![TalentFlow Dashboard](02-dashboard.png)
+
+### Applicants Management
+![TalentFlow Applicants](03-applicants.png)
+
+### Jobs Management
+![TalentFlow Jobs](04-jobs.png)
+
 ## Technologies Used
 
 - React
